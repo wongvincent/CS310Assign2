@@ -54,8 +54,7 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onFailure(Throwable caught) {
-					Window.alert("HELLO " + caught.getClass() + " : " + caught.getMessage());
-				
+					Window.alert("HELLO" + caught.getClass() + " : " + caught.getMessage());				
 			}
 
 			@Override
