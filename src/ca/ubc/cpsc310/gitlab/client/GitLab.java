@@ -85,6 +85,7 @@ public class GitLab implements EntryPoint {
 		{
 		
 			IUser user = users.get(i);
+			System.out.println("I'M IN A LOOPPPPPP");
 			
 			flexTable.setText(i+1,0,user.getName());
 			if(user.getLanguage().trim().equals("EN"))
